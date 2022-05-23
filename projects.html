@@ -1,249 +1,208 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Lawrence O'Regan-Lloyd's Portfolio</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <link
-      rel="stylesheet"
-      href="https://www.w3schools.com/lib/w3-theme-black.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <!-- Side Navigation -->
-    <nav
-      class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center"
-      style="display: none"
-      id="mySidebar"
-    >
-      <h1 class="w3-xxxlarge w3-text-theme"></h1>
 
-      <a href="/" class="w3-bar-item w3-button">Home</a>
-      <a href="/about.html" class="w3-bar-item w3-button">About Me</a>
-      <button class="w3-bar-item w3-button" onclick="w3_close()">
-        Close <i class="fa fa-remove"></i>
-      </button>
-    </nav>
+<head>
+  <title>Lawrence O'Regan-Lloyd's Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" />
+</head>
 
-    <!-- Header -->
-    <header class="w3-container w3-theme w3-padding" id="myHeader">
-      <i
-        onclick="w3_open()"
-        class="fa fa-bars w3-xlarge w3-button w3-theme"
-      ></i>
-      <div class="w3-center">
-        <h4>Portfolio</h4>
-        <h1 class="w3-xxxlarge">LAWRENCE O'REGAN-LLOYD</h1>
-        <div class="w3-padding-32">
-          <button
-            class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey"
-            onclick="document.getElementById('id01').style.display='block'"
-            style="font-weight: 900; margin-right: 20px"
-          >
-            VIEW RESUME
-          </button>
+<body>
+  <!-- Side Navigation -->
+  <nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display: none" id="mySidebar">
+    <h1 class="w3-xxxlarge w3-text-theme"></h1>
 
-          <a
-            href="https://drive.google.com/uc?export=download&id=1ogHMQFt0id1Jr05Aye4HAfojpcnjsRYi"
-            download
-          >
-            <button
-              class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey"
-              style="font-weight: 900"
-            >
-              DOWNLOAD RESUME
-            </button></a
-          >
-        </div>
+    <a href="/" class="w3-bar-item w3-button">Home</a>
+    <a href="/about.html" class="w3-bar-item w3-button">About Me</a>
+    <button class="w3-bar-item w3-button" onclick="w3_close()">
+      Close <i class="fa fa-remove"></i>
+    </button>
+  </nav>
+
+  <!-- Header -->
+  <header class="w3-container w3-theme w3-padding" id="myHeader">
+    <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i>
+    <div class="w3-center">
+      <h4>Portfolio</h4>
+      <h1 class="w3-xxxlarge">LAWRENCE O'REGAN-LLOYD</h1>
+      <div class="w3-padding-32">
+        <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey"
+          onclick="document.getElementById('id01').style.display='block'" style="font-weight: 900; margin-right: 20px">
+          VIEW RESUME
+        </button>
+
+        <a href="https://drive.google.com/uc?export=download&id=1pAIXDIzyr7ZhJ_dXs8LPv0dTFOu7JkQy" download>
+          <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" style="font-weight: 900">
+            DOWNLOAD RESUME
+          </button></a>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <!-- Modal -->
-    <div id="id01" class="w3-modal">
-      <div class="w3-modal-content w3-card-4 w3-animate-top">
-        <header class="w3-container w3-theme-l1">
-          <span
-            onclick="document.getElementById('id01').style.display='none'"
-            class="w3-button w3-display-topright"
-            >×</span
-          >
-          <h4>Resume</h4>
-        </header>
-        <div class="w3-padding">
-          <iframe
-            src="https://drive.google.com/file/d/1ogHMQFt0id1Jr05Aye4HAfojpcnjsRYi/preview"
-            width="640"
-            height="480"
-            allow="autoplay"
-          ></iframe>
+  <!-- Modal -->
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-theme-l1">
+        <span onclick="document.getElementById('id01').style.display='none'"
+          class="w3-button w3-display-topright">×</span>
+        <h4>Resume</h4>
+      </header>
+      <div class="w3-padding">
+        <iframe src="https://drive.google.com/file/d/1pAIXDIzyr7ZhJ_dXs8LPv0dTFOu7JkQy/preview" width="640" height="480"
+          allow="autoplay"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-container w3-center">
+    <hr />
+    <h2>Projects</h2>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <div class="w3-card">
+        <a href="https://lawrenceol.surge.sh/">
+          <img src="assets/tictactoescreen.png" alt="Tic Tac Toe" style="width: 100%" /></a>
+        <div class="w3-container">
+          <p>
+            <b>Tic Tac Toe</b> was once of my first ever front-end projects. I
+            enjoyed learning more about styling with CSS and about making a
+            simple AI using a random number generator.<br />
+
+            Technologies: HTML, CSS, JavaScript <br />
+            <a href="https://lawrenceol.surge.sh/">Deployed Game</a>
+          </p>
         </div>
       </div>
     </div>
+    <div class="w3-third">
+      <div class="w3-card">
+        <a href="https://github.com/LawrenceOL/out-n-about-5-front-end">
+          <img src="assets/outnaboutloginscreen.png" alt="Out and About 5" style="width: 100%" /></a>
+        <div class="w3-container">
+          <p>
+            <b>Out and About 5 </b> is a geolocation-based game that
+            encourages users to go out into their neighborhood and explore new
+            places. This was a group project in which I served as the Git and
+            project manager as well as worked on the back end. <br />
 
-    <div class="w3-container w3-center">
-      <hr />
-      <h2>Projects</h2>
-    </div>
-
-    <div class="w3-row-padding">
-      <div class="w3-third">
-        <div class="w3-card">
-          <a href="https://lawrenceol.surge.sh/">
-            <img
-              src="assets/tictactoescreen.png"
-              alt="Tic Tac Toe"
-              style="width: 100%"
-          /></a>
-          <div class="w3-container">
-            <p>
-              <b>Tic Tac Toe</b> was once of my first ever front-end projects. I
-              enjoyed learning more about styling with CSS and about making a
-              simple AI using a random number generator.<br />
-
-              Technologies: HTML, CSS, JavaScript <br />
-              <a href="https://lawrenceol.surge.sh/">Deployed Game</a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="w3-third">
-        <div class="w3-card">
-          <a href="https://github.com/LawrenceOL/out-n-about-5-front-end">
-            <img
-              src="assets/outnaboutloginscreen.png"
-              alt="Out and About 5"
-              style="width: 100%"
-          /></a>
-          <div class="w3-container">
-            <p>
-              <b>Out and About 5 </b> is a geolocation-based game that
-              encourages users to go out into their neighborhood and explore new
-              places. This was a group project in which I served as the Git and
-              project manager as well as worked on the back end. <br />
-
-              Technologies: PERN stack (PostgreSQL, Express, React.js,
-              node.js)<br />
-              <a href="https://github.com/LawrenceOL/out-n-about-5-front-end"
-                >Github Repo</a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="w3-third">
-        <div class="w3-card">
-          <a href="https://gem-sweeper.surge.sh/">
-            <img
-              src="assets/gemsweeperscreen.png"
-              alt="Gemsweeper"
-              style="width: 100%"
-          /></a>
-          <div class="w3-container">
-            <p>
-              <b>Gemsweeper</b> is a twist on the classic game Minesweeper. This
-              was one of my first ever front-end projects made from scratch.
-              <br />
-
-              Technologies: HTML, CSS, JavaScript
-
-              <br />
-
-              <a href="https://gem-sweeper.surge.sh/">Deployed Game</a>
-            </p>
-          </div>
+            Technologies: PERN stack (PostgreSQL, Express, React.js,
+            node.js)<br />
+            <a href="https://github.com/LawrenceOL/out-n-about-5-front-end">Github Repo</a>
+          </p>
         </div>
       </div>
     </div>
+    <div class="w3-third">
+      <div class="w3-card">
+        <a href="https://gem-sweeper.surge.sh/">
+          <img src="assets/gemsweeperscreen.png" alt="Gemsweeper" style="width: 100%" /></a>
+        <div class="w3-container">
+          <p>
+            <b>Gemsweeper</b> is a twist on the classic game Minesweeper. This
+            was one of my first ever front-end projects made from scratch.
+            <br />
 
-    <!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
-    <script>
-      // Side navigation
-      function w3_open() {
-        var x = document.getElementById("mySidebar");
-        x.style.width = "100%";
-        x.style.fontSize = "40px";
-        x.style.paddingTop = "10%";
-        x.style.display = "block";
+            Technologies: HTML, CSS, JavaScript
+
+            <br />
+
+            <a href="https://gem-sweeper.surge.sh/">Deployed Game</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
+  <script>
+    // Side navigation
+    function w3_open() {
+      var x = document.getElementById("mySidebar");
+      x.style.width = "100%";
+      x.style.fontSize = "40px";
+      x.style.paddingTop = "10%";
+      x.style.display = "block";
+    }
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+
+    // Tabs
+    function openCity(evt, cityName) {
+      var i;
+      var x = document.getElementsByClassName("city");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
       }
-      function w3_close() {
-        document.getElementById("mySidebar").style.display = "none";
+      var activebtn = document.getElementsByClassName("testbtn");
+      for (i = 0; i < x.length; i++) {
+        activebtn[i].className = activebtn[i].className.replace(
+          " w3-dark-grey",
+          ""
+        );
       }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " w3-dark-grey";
+    }
 
-      // Tabs
-      function openCity(evt, cityName) {
-        var i;
-        var x = document.getElementsByClassName("city");
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";
-        }
-        var activebtn = document.getElementsByClassName("testbtn");
-        for (i = 0; i < x.length; i++) {
-          activebtn[i].className = activebtn[i].className.replace(
-            " w3-dark-grey",
-            ""
-          );
-        }
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " w3-dark-grey";
+    var mybtn = document.getElementsByClassName("testbtn")[0];
+    mybtn.click();
+
+    // Accordions
+    function myAccFunc(id) {
+      var x = document.getElementById(id);
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
       }
+    }
 
-      var mybtn = document.getElementsByClassName("testbtn")[0];
-      mybtn.click();
+    // Slideshows
+    var slideIndex = 1;
 
-      // Accordions
-      function myAccFunc(id) {
-        var x = document.getElementById(id);
-        if (x.className.indexOf("w3-show") == -1) {
-          x.className += " w3-show";
+    function plusDivs(n) {
+      slideIndex = slideIndex + n;
+      showDivs(slideIndex);
+    }
+
+    function showDivs(n) {
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = x.length;
+      }
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex - 1].style.display = "block";
+    }
+
+    showDivs(1);
+
+    // Progress Bars
+    function move() {
+      var elem = document.getElementById("myBar");
+      var width = 5;
+      var id = setInterval(frame, 10);
+      function frame() {
+        if (width == 100) {
+          clearInterval(id);
         } else {
-          x.className = x.className.replace(" w3-show", "");
+          width++;
+          elem.style.width = width + "%";
+          elem.innerHTML = width * 1 + "%";
         }
       }
+    }
+  </script>
+</body>
 
-      // Slideshows
-      var slideIndex = 1;
-
-      function plusDivs(n) {
-        slideIndex = slideIndex + n;
-        showDivs(slideIndex);
-      }
-
-      function showDivs(n) {
-        var x = document.getElementsByClassName("mySlides");
-        if (n > x.length) {
-          slideIndex = 1;
-        }
-        if (n < 1) {
-          slideIndex = x.length;
-        }
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";
-        }
-        x[slideIndex - 1].style.display = "block";
-      }
-
-      showDivs(1);
-
-      // Progress Bars
-      function move() {
-        var elem = document.getElementById("myBar");
-        var width = 5;
-        var id = setInterval(frame, 10);
-        function frame() {
-          if (width == 100) {
-            clearInterval(id);
-          } else {
-            width++;
-            elem.style.width = width + "%";
-            elem.innerHTML = width * 1 + "%";
-          }
-        }
-      }
-    </script>
-  </body>
 </html>
