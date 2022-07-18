@@ -8,11 +8,6 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
   <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" />
-  <style>
-    .hovered:hover {
-      background-color: #2196f3;
-    }
-  </style>
 </head>
 
 <body>
@@ -20,8 +15,8 @@
   <nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display: none" id="mySidebar">
     <h1 class="w3-xxxlarge w3-text-theme"></h1>
 
+    <a href="/" class="w3-bar-item w3-button">Home</a>
     <a href="/about.html" class="w3-bar-item w3-button">About Me</a>
-    <a href="/projects.html" class="w3-bar-item w3-button">Projects</a>
     <button class="w3-bar-item w3-button" onclick="w3_close()">
       Close <i class="fa fa-remove"></i>
     </button>
@@ -31,7 +26,7 @@
   <header class="w3-container w3-theme w3-padding" id="myHeader">
     <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i>
     <div class="w3-center">
-      <h4>Full-stack Developer</h4>
+      <h4>Portfolio</h4>
       <h1 class="w3-xxxlarge">LAWRENCE O'REGAN-LLOYD</h1>
       <div class="w3-padding-32">
         <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey"
@@ -46,8 +41,6 @@
       </div>
     </div>
   </header>
-
-
 
   <!-- Modal -->
   <div id="id01" class="w3-modal">
@@ -64,70 +57,69 @@
     </div>
   </div>
 
-  <div class="w3-row-padding w3-center w3-margin-top">
-    <div class="w3-third">
-      <div class="w3-card w3-container hovered" style="min-height: 460px">
-        <h2>Tic Tac Toe</h2>
-        <br />
-        <a href="/tictactoe.html">
-          <i class="fa fa-gamepad" aria-hidden="true" style="font-size: 120px"></i>
-        </a>
+  <div class="w3-container w3-center">
+    <hr />
+    <h2>Projects</h2>
+  </div>
 
-        <p>Features simple AI</p>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>JavaScript</p>
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <div class="w3-card">
+        <a href="tictactoe.html">
+          <img src="/assets/tictactoescreen.png" alt="Tic Tac Toe" style="width: 100%" /></a>
+        <div class="w3-container">
+          <p>
+            <b>Tic Tac Toe</b> This Tic Tac Toe game was built using HTML, CSS, and JavaScript, and features a simple AI
+            to play against.<br />
+
+            Technologies: HTML, CSS, JavaScript <br />
+            <a href="/tictactoe.html">Deployed Game</a>
+          </p>
+        </div>
       </div>
     </div>
-
     <div class="w3-third">
-      <div class="w3-card w3-container hovered" style="min-height: 460px">
-        <h3>Out and About 5</h3>
-        <br />
+      <div class="w3-card">
         <a href="https://github.com/LawrenceOL/out-n-about-5-front-end">
-          <i class="fa fa-map-marker w3-margin-bottom w3-text-theme" style="font-size: 120px"></i>
-        </a>
-        <p>Discover fun activities in your neighborhood</p>
-        <p>PostgreSQL</p>
-        <p>Express</p>
-        <p>React.js</p>
-        <p>node.js</p>
+          <img src="assets/outnaboutloginscreen.png" alt="Out and About 5" style="width: 100%" /></a>
+        <div class="w3-container">
+          <p>
+            <b>Out and About 5 </b> is a geolocation-based game that
+            encourages users to go out into their neighborhood and explore new
+            places. This was a group project in which I served as the Git and
+            project manager as well as worked on the back end. <br />
+
+            Technologies: PERN stack (PostgreSQL, Express, React.js,
+            node.js)<br />
+            <a href="https://github.com/LawrenceOL/out-n-about-5-front-end">Github Repo</a>
+          </p>
+        </div>
       </div>
     </div>
-
     <div class="w3-third">
-      <div class="w3-card w3-container hovered" style="min-height: 460px">
-        <h3>Gemsweeper</h3>
-        <br />
+      <div class="w3-card">
         <a href="/gemsweeper.html">
-          <i class="fa fa-diamond w3-margin-bottom w3-text-theme" style="font-size: 120px"></i></a>
-        <p>A new twist on the classic Minesweeper game</p>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>JavaScript</p>
+          <img src="assets/gemsweeperscreen.png" alt="Gemsweeper" style="width: 100%" /></a>
+        <div class="w3-container">
+          <p>
+            <b>Gemsweeper</b> is a twist on the classic game Minesweeper. This
+            was one of my first ever front-end projects made from scratch.
+            <br />
+
+            Technologies: HTML, CSS, JavaScript
+
+            <br />
+
+            <a href="/gemsweeper.html">Deployed Game</a>
+          </p>
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- Footer -->
-  <footer class="w3-container w3-padding-16" style="background-color: grey">
-    <a href="projects.html">
-      <h3>2022 Project Portfolio</h3>
-    </a>
-    <p>
-      Template by
-      <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
-    </p>
-    <div style="position: relative; bottom: 55px" class="w3-tooltip w3-right">
-      <span class="w3-text w3-theme-light w3-padding">Go To Top</span> 
-      <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
-          <i class="fa fa-chevron-circle-up"></i></span></a>
-    </div>
-  </footer>
-
   <!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
   <script>
-    // Side nav
+    // Side navigation
     function w3_open() {
       var x = document.getElementById("mySidebar");
       x.style.width = "100%";
@@ -138,9 +130,6 @@
     function w3_close() {
       document.getElementById("mySidebar").style.display = "none";
     }
-
-
-
 
     // Accordions
     function myAccFunc(id) {
