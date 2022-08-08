@@ -57,6 +57,7 @@ header {
 
 .reset:hover {
   background-color: green;
+  text-decoration: underline;
 }
 
 .game-container {
@@ -143,4 +144,26 @@ header {
     margin-left: 10vw;
     color: white;
   }
+}
+
+#tictactoe-nav {
+  width: 60px;
+  height: 2em;
+  line-height: 2em;
+  margin: 20px 0 0 20px;
+  background: gray;
+  text-align: center;
+  border-radius: 25px;
+}
+
+#tictactoe-nav a {
+  text-decoration: none;
+  color: black;
+  margin: auto;
+}
+
+#tictactoe-nav:hover {
+  background: green;
+  color: white;
+  text-decoration: underline;
 }
