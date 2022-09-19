@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
   <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/index_styles.css" />
   <link rel="canonical" href="http://www.lawrenceol.dev">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -75,87 +76,10 @@
   <div class="w3-container w3-center">
     <hr />
     <h2 id="projects">Projects</h2>
-    <br>
+
   </div>
 
-  <div class="w3-row-padding">
-    <div class="w3-third w3-padding">
-      <div class="w3-card">
-        <a href="tictactoe.html">
-          <img src="/assets/tictactoescreen.png" alt="Tic Tac Toe" style="width: 100%" /></a>
-        <div class="w3-container">
-          <p>
-            <b>Tic Tac Toe</b> was one of the first projects I worked on as a part of the General Assembly Immersive
-            Program. This was built using HTML, CSS, and JavaScript, and features a simple AI
-            to play against.<br />
 
-            Technologies: HTML, CSS, JavaScript
-
-            <br \>
-            <br \>
-            <br \>
-            <br \>
-            <a href="/tictactoe.html">Deployed Game</a>
-
-            <br \>
-
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-third w3-padding">
-      <div class="w3-card">
-        <a href="https://github.com/LawrenceOL/out-n-about-5-front-end">
-          <img src="assets/outnaboutloginscreen.png" alt="Out and About 5" style="width: 100%" /></a>
-        <div class="w3-container">
-          <p>
-            <b>Out and About 5 </b> is a geolocation-based game that
-            encourages users to go out into their neighborhood and explore new
-            places. This was a group project in which I served as the Git and
-            project manager as well as worked on the back end. <br />
-
-            Technologies: PERN stack (PostgreSQL, Express, React.js,
-            node.js)
-            <br />
-            <br>
-            <br>
-
-            <a href="https://github.com/LawrenceOL/out-n-about-5-front-end">Github Repo</a>
-
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-third w3-padding">
-      <div class="w3-card">
-        <a href="/gemsweeper.html">
-          <img src="assets/gemsweeperscreen.png" alt="Gemsweeper" style="width: 100%" /></a>
-        <div class="w3-container">
-          <p>
-            <b>Gemsweeper</b> is a twist on the classic game Minesweeper. This
-            was one of my first ever front-end projects made from scratch.
-            <br />
-
-            Technologies: HTML, CSS, JavaScript
-
-            <br \>
-            <br \>
-            <br \>
-            <br \>
-            <br \>
-
-            <a href="/gemsweeper.html">Deployed Game</a>
-
-
-            <br \>
-
-
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <br>
   <div class="w3-third w3-padding">
     <div class="w3-card">
       <a href="https://www.anniesbooksorleans.com">
@@ -165,46 +89,121 @@
           I built a simple static HTML site for <b>Annie's Books and Gifts</b>, a local independent bookstore and gift
           shop. I organized all aspects of the site, from domain name registration to hosting and
           distribution through
-          CDN on Microsoft's Azure cloud platform. <br />
+          CDN on Microsoft's Azure cloud platform.
 
 
           Technologies: HTML, CSS, JavaScript
 
-          <br />
-          <br />
 
-          <a href="https://www.anniesbooksorleans.com">Website</a>
+
+
         </p>
+        <a class="project-link" href="https://www.anniesbooksorleans.com">Website</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ----------------- -->
+
+  </div>
+  <div class="w3-third w3-padding">
+    <div class="w3-card">
+      <a href="/gemsweeper.html">
+        <img src="assets/gemsweeperscreen.png" alt="Gemsweeper" style="width: 100%" /></a>
+      <div class="w3-container">
+        <p>
+          <b>Gemsweeper</b> is a twist on the classic game Minesweeper. This
+          was one of my first ever front-end projects made from scratch.
+
+
+          Technologies: HTML, CSS, JavaScript
+
+
+
+
+
+
+        </p>
+        <a class="project-link" class="project-link" href="/gemsweeper.html">Deployed Game</a>
       </div>
     </div>
   </div>
   </div>
+  <div class="w3-third w3-padding">
+    <div class="w3-card">
+      <a href="https://github.com/LawrenceOL/out-n-about-5-front-end">
+        <img src="assets/outnaboutloginscreen.png" alt="Out and About 5" style="width: 100%" /></a>
+      <div class="w3-container">
+        <p>
+          <b>Out and About 5 </b> is a geolocation-based game that
+          encourages users to go out into their neighborhood and explore new
+          places. This was a group project in which I served as the Git and
+          project manager as well as worked on the back end.
 
-  <!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
-  <script>
-    // Side navigation
-    function w3_open() {
-      var x = document.getElementById("mySidebar");
-      x.style.width = "100%";
-      x.style.fontSize = "40px";
-      x.style.paddingTop = "10%";
-      x.style.display = "block";
-    }
-    function w3_close() {
-      document.getElementById("mySidebar").style.display = "none";
-    }
+          Technologies: PERN stack (PostgreSQL, Express, React.js,
+          node.js)
 
-    // Accordions
-    function myAccFunc(id) {
-      var x = document.getElementById(id);
-      if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-      } else {
-        x.className = x.className.replace(" w3-show", "");
+
+
+
+
+        </p>
+        <a class="project-link" href="https://github.com/LawrenceOL/out-n-about-5-front-end">Github Repo</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third w3-padding">
+    <div class="w3-card">
+      <a href="tictactoe.html">
+        <img src="/assets/tictactoescreen.png" alt="Tic Tac Toe" style="width: 100%" /></a>
+      <div class="w3-container">
+        <p>
+          <b>Tic Tac Toe</b> was one of the first projects I worked on as a part of the General Assembly Immersive
+          Program. This was built using HTML, CSS, and JavaScript, and features a simple AI
+          to play against.
+
+          Technologies: HTML, CSS, JavaScript
+
+
+
+
+
+
+        </p>
+        <a href="/tictactoe.html">Deployed Game</a>
+      </div>
+    </div>
+
+
+
+
+    <!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
+    <script>
+      // Side navigation
+      function w3_open() {
+        var x = document.getElementById("mySidebar");
+        x.style.width = "100%";
+        x.style.fontSize = "40px";
+        x.style.paddingTop = "10%";
+        x.style.display = "block";
       }
-    }
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+      }
 
-  </script>
+      // Accordions
+      function myAccFunc(id) {
+        var x = document.getElementById(id);
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+
+    </script>
 </body>
 
 </html>
