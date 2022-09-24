@@ -3,3 +3,9 @@
   margin-bottom: 30px;
   overflow-y: auto;
 }
+
+@media (max-width: 480px) {
+  .view-resume {
+    margin-bottom: 34px;
+  }
+}

@@ -122,6 +122,12 @@ header {
     background-color: #012a4a;
   }
 
+  @media (max-width: 480px) {
+    .w3-btn {
+      color: red;
+    }
+  }
+
   .outer {
     width: 90vw;
     height: 100vh;
