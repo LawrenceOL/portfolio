@@ -9,3 +9,12 @@
     margin-bottom: 34px;
   }
 }
+
+.resume-embed {
+  width: 100%;
+  height: 480px;
+}
+
+.about-me-content {
+  text-align: center;
+}
