@@ -36,6 +36,7 @@ body {
   align-items: center;
   background-color: #f7f6eb;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
 /* Text styles */
@@ -55,4 +56,30 @@ h1.text-center {
   h1.text-center {
     font-size: 24px;
   }
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  padding-right: 20px;
+  margin-top: auto;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 1.5rem;
+  transition: opacity 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  opacity: 0.7;
+}
+
+/* Positioning */
+.absolute-bottom-right {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
 }
