@@ -51,3 +51,8 @@ h1.text-center {
 .subtitle-fade-in {
   font-size: 24px;
 }
+@media (max-width: 768px) {
+  h1.text-center {
+    font-size: 24px;
+  }
+}
