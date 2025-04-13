@@ -28,7 +28,7 @@ body {
 /* Container styles */
 .container {
   width: 80%;
-  height: 100vh;
+  height: 75vh;
   margin: 40px auto;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,6 @@ body {
   align-items: center;
   background-color: #f7f6eb;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: relative;
 }
 
 /* Text styles */
