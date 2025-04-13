@@ -1,0 +1,53 @@
+/* Animation styles */
+.fade-in {
+  animation: fadeIn 3s ease-out forwards;
+}
+
+.subtitle-fade-in {
+  opacity: 0;
+  animation: fadeIn 4s ease-out forwards;
+  animation-delay: 2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Body styles */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Container styles */
+.container {
+  width: 80%;
+  height: 100vh;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f6eb;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Text styles */
+.text-center {
+  color: #333333;
+  text-align: center;
+}
+
+h1.text-center {
+  font-size: 48px;
+}
+
+.subtitle-fade-in {
+  font-size: 24px;
+}
